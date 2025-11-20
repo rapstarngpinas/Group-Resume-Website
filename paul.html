@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resume - John Paul Labaguis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Poppins', sans-serif;
+      background: #e8eef3;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(135deg, #003366, #0059b3);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+    header h1 {
+      font-size: 36px;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 18px;
+      margin-top: 5px;
+    }
+    header img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin-top: 15px;
+      border: 4px solid white;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      object-fit: cover;
+    }
+
+    /* Navigation */
+    nav {
+      background: #ffffff;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      text-align: center;
+      padding: 12px;
+      position: sticky;
+      top: 0;
+      z-index: 999;
+    }
+    nav a {
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      color: #0059b3;
+      padding: 6px 12px;
+      transition: 0.3s;
+      border-radius: 5px;
+    }
+    nav a:hover {
+      background: #0059b3;
+      color: white;
+    }
+
+    /* Section */
+    section {
+      background: white;
+      max-width: 900px;
+      margin: 30px auto;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transform: translateY(0);
+      transition: 0.3s;
+    }
+    section:hover {
+      transform: translateY(-5px);
+    }
+    h2 {
+      border-left: 6px solid #ffcc00;
+      padding-left: 10px;
+      margin-bottom: 15px;
+      color: #003366;
+    }
+
+    /* Lists */
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+    ul li::before {
+      content: "✔ ";
+      color: #ffcc00;
+      font-weight: bold;
+    }
+
+    /* Footer */
+    footer {
+      background: #003366;
+      text-align: center;
+      color: white;
+      padding: 18px;
+      margin-top: 40px;
+    }
+    footer p {
+      font-size: 14px;
+      opacity: 0.8;
+    }
+    a {
+      color: #0059b3;
+    }
+    a:hover {
+      color: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>JOHN PAUL LABAGUIS</h1>
+    <p>Aspiring Web Developer</p>
+    <img src="/image/paul.jpeg" alt="Profile Picture">
+  </header>
+
+  <!-- Navigation -->
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm <strong>John Paul Labaguis</strong>, 20 years old — a passionate musician, rap artist, and songwriter who is now pursuing a career in <strong>Bachelor Of Science In Information Technology</strong></p>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education">
+    <h2>Education</h2>
+    <p><strong>General Academic Strand</strong><br>Mogpog National Comprehensive Senior High School (2023 - 2024)</p>
+    <p><strong>Bachelor of Science in Information Technology</strong><br>Colegio de Montalban (2024 - Present)</p>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Software Installation</li>
+      <li>Time Management</li>
+      <li>PC/Computer Repair</li>
+      <li>Communication</li>
+      <li>Problem Solving</li>
+    </ul>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:paullabaguis76@gmail.com">paullabaguis76@gmail.com</a></p>
+    <p>Phone: 09512436456</p>
+    <p>Facebook: <a href="https://www.facebook.com/cleezyontop" target="_blank">facebook.com/cleezyontop</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 cleezyontop | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
